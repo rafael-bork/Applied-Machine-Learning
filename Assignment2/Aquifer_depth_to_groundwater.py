@@ -94,7 +94,7 @@ def plot_scatter_actual_vs_predicted(model, X, y):
 
 
 def main():
-    filepath = r'Assignments\Assignment2\aquifer_time_series.csv'
+    filepath = r'https://raw.githubusercontent.com/rafael-bork/Applied-Machine-Learning/5f68d2b9e08334d07bdf39136d31d866d501fb45/Assignment2/aquifer_time_series.csv'
     df = load_and_preprocess_data(filepath)
 
     variables = ['rainfall_mm', 'temperature_C', 'drainage_m3', 'river_hydrometry_m', 'depth_to_groundwater_m']
